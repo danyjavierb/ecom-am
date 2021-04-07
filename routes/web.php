@@ -13,12 +13,6 @@ use App\Models\Empresa;
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 
-pregunta.	para conocer la empresa del empleado con id 1 la sentencia seria:
-a.	$empleado = Empleado->find(1); $empresa = empleado->empresa;
-b.	$empleado = Empleado->find(1); $empresa = empleado::empresa;
-c.	$empleado = Empleado::find(1); $empresa = $empleado->empresa;
-d.	$empresa = Empleado::where(‘empresa_id’,1);
-
 |
 */
 
